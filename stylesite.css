@@ -1,0 +1,65 @@
+body { 
+width: 100%; 
+border: 20px  
+solid red; 
+}
+
+body { 
+width: 100%; 
+border: 30px 
+solid yellow; 
+}
+
+.back_amarelo{ 
+background-color: yellow; 
+color: black; 
+padding: 30px; 
+border-color: black;
+border-style: dashed; 
+border-width:10px;
+}
+
+#quem, #obj, #fazer, #mudar, #semestre { 
+color: black;
+ font-size: 2em; 
+}
+
+span{ 
+font-weight:bold; 
+}
+
+div { 
+color:black; 
+font-style:italic; 
+}
+
+header, footer { 
+padding: 2em; 
+color: white; 
+background-color: red; 
+clear: left;
+text-align: center; 
+}
+
+nav {
+float: left; 
+max-width: 160px; 
+margin: 0; 
+padding: 2em;
+}
+
+nav ul { 
+list-style-type: none; 
+padding: 0; 
+}
+
+nav ul a { 
+text-decoration: none; 
+}
+
+article { 
+margin-left: 170px; 
+border-left: 1px solid gray; 
+padding: 2em; 
+overflow: hidden; 
+}
